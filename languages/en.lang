@@ -92,17 +92,17 @@ handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the data
 handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\n» Time: %2\n» User ID: %3
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
-handlerEvents.onlyAdminBot=👻 | 𝑺𝒆𝒖𝒍 𝑬𝑷𝑯𝑬𝑴𝑰𝑨 𝒖𝒕𝒊𝒍𝒊𝒔𝒆 𝒍𝒆 𝑩𝒐𝒕\n________________\n❥❦𝑬𝑷𝑯𝑬𝑴𝑰๖ۣ•҉
-handlerEvents.commandNotFound=📝| 𝐂𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞 𝐥𝐚 𝐜𝐦𝐝 #help\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏\n❥❦𝑬𝑷𝑯𝑬𝑴𝑰๖ۣ•҉
-handlerEvents.commandNotFound2=🌿🎀𝙼𝚈 𝙲𝚁𝙴𝙰𝚃𝙾𝚁𝚂🎀🌿 \n____________ \nʬɸʬ Shïsûį Dånïęl ʬɸʬ\nʚɸɞ 𝐀𝐫𝐜𝐚𝐧𝐨 𝐌𝐚𝐥𝐢𝐠𝐧𝐮𝐢𝐬 ʚɸɞ\n________________\nʚɸɞ.https://www.facebook.com/profile.php?id=100090405019929.ʚɸɞ\n_________________\nhttps://www.facebook.com/profile.php?id=61559119588245\n_________________\n❥❦𝑬𝑷𝑯𝑬𝑴𝑰๖ۣ•҉ 
+handlerEvents.onlyAdminBot=👻 | 𝑺𝒆𝒖𝒍 𝑬𝑷𝑯𝑬𝑴𝑰𝑨 𝒖𝒕𝒊𝒍𝒊𝒔𝒆 𝒍𝒆 𝑩𝒐𝒕\n________________\n❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦
+handlerEvents.commandNotFound=📝| 𝐂𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞 𝐥𝐚 𝐜𝐦𝐝 #help\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏\n❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦
+handlerEvents.commandNotFound2=🎶✨𝙼𝚈 𝙲𝚁𝙴𝙰𝚃𝙾𝚁✨🎶\n____________ \nʬɸʬ Shïsûį Dånïęl ʬɸʬ\n________________\nʚɸɞ.https://www.facebook.com/profile.php?id=100090405019929.ʚɸɞ\n_________________\n❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦ 
 handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
-handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n__________________ \n ❥❦𝑬𝑷𝑯𝑬𝑴𝑰๖ۣ•҉
+handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n__________________ \n ❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
-handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1" \n☄⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋⚋┉     ༐⸙..❤️‍🔥..ʜᴀɪᴛᴀɴɪ ༐⸙🪽
-handlerEvents.onlyAdminBot2=❌ | 𝐒𝐞𝐮𝐥 ❥❦𝑬𝑷𝑯𝑬𝑴𝑰๖ۣ•҉ 𝐮𝐭𝐢𝐥𝐢𝐬𝐞 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 🌾%1🌾
+handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1" \n☄⚋⚋⚋⚋⚋⚋⚋\n❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦
+handlerEvents.onlyAdminBot2=❌ | 𝐒𝐞𝐮𝐥 ❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦ 𝐮𝐭𝐢𝐥𝐢𝐬𝐞 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 🌾%1🌾
 handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
 handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
-handlerEvents.waitingForCommand=💁| 𝐒𝐨𝐢𝐬 𝐩𝐚𝐭𝐢𝐞𝐧𝐭(𝐞) 𝐛𝐨𝐧 𝐬𝐚𝐧𝐠 \n__________________\n ❥❦𝑬𝑷𝑯𝑬𝑴𝑰๖ۣ•҉ %1s
+handlerEvents.waitingForCommand=💁| 𝐒𝐨𝐢𝐬 𝐩𝐚𝐭𝐢𝐞𝐧𝐭(𝐞) 𝐛𝐨𝐧 𝐬𝐚𝐧𝐠 \n__________________\n ❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦ %1s
 handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
 handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
 handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
