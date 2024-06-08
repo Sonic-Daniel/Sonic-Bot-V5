@@ -1,4 +1,4 @@
-#cmd install antiout.js module.exports = {
+module.exports = {
   config: {
     name: "antiout",
     version: "1.0",
@@ -23,7 +23,7 @@
       return message.reply("Please use 'on' or 'off' as an argument");
     }
     await threadsData.set(event.threadID, args[0] === "on", "settings.antiout");
-    return message.reply(`Antiout has been ${args[0] === "on" ? "enabled😼" : "disabled🙁"}.`);
+    return message.reply(`Antiout has been ${args[0] === "on" ? "𝐕𝐨𝐮𝐬 𝐞𝐭𝐞𝐬 𝐭𝐨𝐮𝐬 𝐩𝐢𝐞𝐠𝐞𝐬👻" : "𝐕𝐨𝐮𝐬 𝐞𝐭𝐞𝐬 𝐥𝐢𝐛𝐫𝐞😑"}.`);
   },
   onEvent: async function({ api, event, threadsData }) {
     const antiout = await threadsData.get(event.threadID, "settings.antiout");
