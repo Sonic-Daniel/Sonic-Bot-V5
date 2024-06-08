@@ -1,8 +1,8 @@
 const axios = require("axios")
 module.exports = {
 	config: {
-		name: 'lina',
-        aliases: ["loft"],
+		name: 'sonic.exe',
+        aliases: ["exe"],
 		version: '1.2',
 		author: 'Luxion/fixed by Riley',
 		countDown: 0,
@@ -13,17 +13,17 @@ module.exports = {
 		},
 		category: 'Ai chat',
 		guide: {
-			en: '   {pn} <word>: chat with lina'
-				+ '\Example:{pn} hi'
+			en: "{pn} <word>: chat with lina"
+				+ "\Example:{pn} hi"
 		}
 	},
 
 	langs: {
 		en: {
-			turnedOn: 'Il est temps de vous clasher à la maniere HAITANI😈!',
-			turnedOff: 'Tu as tellement peur de moi que tu me met off fils de pute🖕!',
+			turnedOn: "𝙎𝙤𝙣𝙞𝙘 𝙣'𝙚𝙨𝙩 𝙥𝙡𝙪𝙨 𝙙𝙚 𝙘𝙚 𝙢𝙤𝙣𝙙𝙚....𝙎𝙊𝙉𝙄𝘾.𝙀𝙓𝙀 𝙚𝙣𝙩𝙚 𝙚𝙣 𝙟𝙚𝙪😈",
+			turnedOff: "𝙅𝙚 𝙧𝙚𝙫𝙞𝙚𝙣𝙙𝙧𝙖𝙞😈",
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
-			error: 'Tu ne sais pas écrire?🙂'
+			error: "𝘽𝙊𝙐𝙁𝙁𝙊𝙉......🌱
 		}
 	},
 
