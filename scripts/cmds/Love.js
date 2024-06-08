@@ -1,9 +1,9 @@
 module.exports = {
   config: {
-    name: "golden",
-    aliases: ["gold"],
+    name: "love",
+    aliases: ["lve"],
     version: "1.0",
-    author: "Loid Butter | haitani du toman",
+    author: "ʬɸʬ Shïsûį Dånïęl ʬɸʬ",
     countDown: 10,
     role: 0,
     shortDescription: "Play miss, the oldest gambling game",
@@ -19,7 +19,7 @@ module.exports = {
     const userData = await usersData.get(event.senderID);
 
     if (!["soy", "luna"].includes(betType)) {
-      return message.reply("🔥choisi entre, state | warrior.");
+      return message.reply("🎶| ℭ𝔥𝔬𝔦𝔰𝔦𝔰 𝔞𝔪𝔶 𝔬𝔲 𝔯𝔬𝔲𝔤𝔢");
     }
 
     if (!Number.isInteger(betAmount) || betAmount < 500) {
