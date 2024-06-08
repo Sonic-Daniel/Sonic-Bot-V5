@@ -9,7 +9,7 @@ module.exports = {
     shortDescription: "Play miss, the oldest gambling game",
     longDescription: "Play miss, the oldest gambling game, and earn money",
     category: "game",
-    guide: "{pn} <state/warrior> <amount of money>"
+    guide: "{pn} <amy/rouge> <amount of money>"
   },
 
   onStart: async function ({ args, message, usersData, event }) {
