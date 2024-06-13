@@ -54,15 +54,11 @@ module.exports = {
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
       const imgURL= "https://i.imgur.com/9Qx4mgn.jpeg";
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
-        body: `🍀𝑆𝑈𝑃𝐸𝑅♻️𝑆𝑂𝑁𝐼𝐶🍀\n━━━━━━━━━━━━━━━━\n
-
-🍀 | 𝐒𝐎𝐍𝐈𝐂 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\n${uptimeString}\n━━━━━━━━━━━━━━━━\n
-
-📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\n────────\n 𝗧𝗲𝗺𝗽: ${time}\n────────\n
-
-🏂 | 𝘛𝘰𝘵𝘢𝘭 𝘜𝘴𝘦𝘳𝘴﹞\n allUsers.length}\n────────\n
-
-🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\n allThreads.length}\n 🎶| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\n────────\n status: ${pingStatus}`,
+        body: `🍀𝑆𝑈𝑃𝐸𝑅♻️𝑆𝑂𝑁𝐼𝐶🍀\n━━━━━━━━━━━━━━━━
+🍀 | 𝐒𝐎𝐍𝐈𝐂 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\n${uptimeString}\n━━━━━━━━━━━━━━━━
+📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\n────────\n 𝗧𝗲𝗺𝗽: ${time}\n━━━━━━━━━━━━━━━━
+🏂 | 𝘛𝘰𝘵𝘢𝘭 𝘜𝘴𝘦𝘳𝘴﹞\n allUsers.length}\n━━━━━━━━━━━━━━━━
+🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\n allThreads.length}\n 🎶| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\n━━━━━━━━━━━━━━━━\n status: ${pingStatus}`,
         attachment: attachment,
       }, event.threadID);
     } catch (error) {
