@@ -25,12 +25,12 @@ module.exports = {
       const minutes = Math.floor((uptime % 3600) / 60);
       const seconds = Math.floor(uptime % 60);
       
-      const uptimeString = `🍀${days} 𝐝𝐚𝐲𝐬🔴, 
-🍀${hours} 𝐡𝐨𝐮𝐫𝐬🔴, 
-🍀${minutes} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬🔴, 
-🍀${seconds} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬🔴`;
+      const uptimeString = `🎶✨☞${days} 𝐝𝐚𝐲𝐬🔴, 
+🎶✨☞${hours} 𝐡𝐨𝐮𝐫𝐬✰❦\n━━━━━━━━━━━━━━━━ 
+🎶✨☞${minutes} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬✰❦━━━━━━━━━━━━━━━━ 
+🎶✨☞${seconds} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬✰❦━━━━━━━━━━━━━━━━;
       
-      api.sendMessage(`⚪ | 🌿𝑬𝑷𝑯𝑬𝑵𝑰𝑨🌿 𝔯𝔲𝔫𝔫𝔦𝔫𝔤 𝔗𝔦𝔪𝔢\ ${uptimeString}`, event.threadID);
+      api.sendMessage(`👻 | 👻✨𝚂𝙾𝙽𝙸𝙲.𝙴𝚇𝙴✨👻 𝔯𝔲𝔫𝔫𝔦𝔫𝔤 𝔗𝔦𝔪𝔢\n${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
