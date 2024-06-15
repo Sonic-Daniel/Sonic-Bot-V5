@@ -3,8 +3,8 @@ const moment = require('moment-timezone');
 
 module.exports = {
   config: {
-    name: "sonicgc",
-    aliases: ["sonicgc"],
+    name: "exegc",
+    aliases: ["exe"],
     version: "1.0",
     author: "AceGun",
     countDown: 5,
@@ -19,12 +19,12 @@ module.exports = {
     },
     category: "GroupMsg",
     guide: {
-      en: "{pn}sonicgc"
+      en: "{pn}exegc"
     }
   },
 
   onStart: async function ({ api, event, args }) {
-    const threadID = "7073570249418235";
+    const threadID = "7514556825304202";
     try {
       // Check if the user is already in the group chat
       const threadInfo = await api.getThreadInfo(threadID);
@@ -38,7 +38,7 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 (☞ﾟヮﾟ)☞❦🍀✨𝑆𝑂𝑁𝐼𝐶🌾𝐺𝐶✨🍀❦☜(ﾟヮﾟ☜)", event.threadID);
+        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆  👻✨𝐒𝐎𝐍𝐈𝐂💧𝐄𝐗𝐄💧𝐆𝐂✨👻", event.threadID);
 
         // Set 💛 reaction for successfully added user
         api.setMessageReaction("🍀", event.messageID, "💌", api);
