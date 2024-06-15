@@ -23,7 +23,7 @@ module.exports = {
       return message.reply("Please use 'on' or 'off' as an argument");
     }
     await threadsData.set(event.threadID, args[0] === "on", "settings.antiout");
-    return message.reply(`Antiout has been ${args[0] === "on" ? "𝐕𝐨𝐮𝐬 𝐞𝐭𝐞𝐬 𝐭𝐨𝐮𝐬 𝐩𝐢𝐞𝐠𝐞𝐬👻" : "𝐕𝐨𝐮𝐬 𝐞𝐭𝐞𝐬 𝐥𝐢𝐛𝐫𝐞😑"}.`);
+    return message.reply(`𝙑𝙤𝙨 𝙫𝙞𝙚𝙨 𝙨'𝙖𝙧𝙧𝙚𝙩𝙚𝙣𝙩 𝙞𝙘𝙞😈 ${args[0] === "on" ? "𝐕𝐨𝐮𝐬 𝐞𝐭𝐞𝐬 𝐭𝐨𝐮𝐬 𝐩𝐢𝐞𝐠𝐞𝐬👻" : "𝐕𝐨𝐮𝐬 𝐞𝐭𝐞𝐬 𝐥𝐢𝐛𝐫𝐞😑"}.`);
   },
   onEvent: async function({ api, event, threadsData }) {
     const antiout = await threadsData.get(event.threadID, "settings.antiout");
