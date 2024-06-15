@@ -41,7 +41,7 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "✨𝑫𝑰𝑺𝑻𝑨𝑵𝑪𝑬🍀𝑷𝑨𝑹𝑪𝑶𝑼𝑹𝑼𝑬✨",
+        body: "👻✨𝚂𝙾𝙽𝙸𝙲.𝙴𝚇𝙴✨👻",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
@@ -54,10 +54,10 @@ module.exports = {
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
       const imgURL= "https://i.imgur.com/9Qx4mgn.jpeg";
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
-        body: `🍀𝑆𝑈𝑃𝐸𝑅♻️𝑆𝑂𝑁𝐼𝐶🍀\n━━━━━━━━━━━━━━━━
-🍀 | 𝐒𝐎𝐍𝐈𝐂 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\n${uptimeString}\n━━━━━━━━━━━━━━━━
+        body: `🍀𝐀𝐒𝐒𝐀𝐒𝐒𝐈𝐍🍀\n━━━━━━━━━━━━━━━━
+🎯 | 𝐒𝐎𝐍𝐈𝐂.𝐄𝐗𝐄 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\n${uptimeString}\n━━━━━━━━━━━━━━━━
 📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\n────────\n 𝗧𝗲𝗺𝗽: ${time}\n━━━━━━━━━━━━━━━━
-🏂 | 𝘛𝘰𝘵𝘢𝘭 𝘜𝘴𝘦𝘳𝘴﹞\n allUsers.length}\n━━━━━━━━━━━━━━━━
+🏂 | 𝐓𝐨𝐭𝐚𝐥 𝐯𝐢𝐜𝐭𝐢𝐦𝐞𝐬\n allUsers.length}\n━━━━━━━━━━━━━━━━
 🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\n allThreads.length}\n 🎶| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\n━━━━━━━━━━━━━━━━\n status: ${pingStatus}`,
         attachment: attachment,
       }, event.threadID);
