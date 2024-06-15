@@ -21,16 +21,16 @@ module.exports = {
 	langs: {
 		en: {
 			turnedOn: "𝙎𝙤𝙣𝙞𝙘 𝙣'𝙚𝙨𝙩 𝙥𝙡𝙪𝙨 𝙙𝙚 𝙘𝙚 𝙢𝙤𝙣𝙙𝙚....𝙎𝙊𝙉𝙄𝘾.𝙀𝙓𝙀 𝙚𝙣𝙩𝙚 𝙚𝙣 𝙟𝙚𝙪😈",
-			turnedOff: "𝙅𝙚 𝙧𝙚𝙫𝙞𝙚𝙣𝙙𝙧𝙖𝙞😈",
+			turnedOff: "𝙐𝙣 𝙘𝙤𝙣𝙨𝙚𝙞𝙡....𝙙𝙤𝙧𝙩 𝙖𝙫𝙚𝙘 𝙪𝙣 𝙤𝙚𝙞𝙡 𝙤𝙪𝙫𝙚𝙧𝙩 🙍",
 			chatting: "Already Chatting with 𝗟𝗢𝗙𝗧...",
 			error: "𝘽𝙊𝙐𝙁𝙁𝙊𝙉......🌱"
 		}
 	},
 
 	onStart: async function ({ args, threadsData, message, event, getLang }) {
-		if (args[0] == 'on' || args[0] == 'off') {
-			await threadsData.set(event.threadID, args[0] == "on", "settings.simsimi");
-			return message.reply(args[0] == "on" ? getLang("turnedOn") : getLang("turnedOff"));
+		if (args[0] == "parle" || args[0] == "adieu") {
+			await threadsData.set(event.threadID, args[0] == "parle", "settings.simsimi");
+			return message.reply(args[0] == "parle" ? getLang("turnedOn") : getLang("turnedOff"));
 		}
 		else if (args[0]) {
 			const yourMessage = args.join(" ");
