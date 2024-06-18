@@ -59,4 +59,4 @@ module.exports = {
 			api.sendMessage(`${rawPaste}`, event.threadID);
 		});
 	},
-}
+	}
