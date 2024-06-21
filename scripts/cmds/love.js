@@ -27,7 +27,7 @@ module.exports = {
     }
 
     if (betAmount > userData.money) {
-      return message.reply("𝑱𝒆 𝒔𝒆𝒏𝒔 𝒒𝒖𝒆 𝒕𝒖 𝒔𝒆𝒓𝒂𝒔 𝒇𝒂𝒖𝒄𝒉𝒆😁");
+      return message.reply("𝑪𝒐𝒏𝒕𝒊𝒏𝒖𝒔 𝒅𝒆 𝒑𝒆𝒓𝒅𝒓𝒆 𝒆𝒕 𝒕𝒐𝒏 𝒄𝒐𝒆𝒖𝒓 𝒔𝒆𝒓𝒂 𝒂 𝒎𝒐𝒊🫀");
     }
 
     const dice = [1, 2, 3, 4, 5, 6];
@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 4 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`𝙎𝙊𝙉𝙄𝘾🎁🎈\n━━━━━━━━━━━━━━━━\n[ 💧${resultString}💧 ]\n🎯 | 𝑩𝒓𝒂𝒗𝒐 𝒕'𝒂𝒔 𝒈𝒂𝒈𝒏𝒆 🌱${winAmount}€🌱`);
+      return message.reply(`🥷🩸𝙎𝙊𝙉𝙄𝘾🎁🎈\n━━━━━━━━━━━━━━━━\n[ 💧${resultString}💧 ]\n🎯 | 𝑩𝒓𝒂𝒗𝒐 𝒕'𝒂𝒔 𝒈𝒂𝒈𝒏𝒆 🌱${winAmount}€🌱`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`𝙎𝙊𝙉𝙄𝘾🎁🎈\n━━━━━━━━━━━━━━━━\n[💧${resultString}💧]\n\n🎯 | 𝑀𝑒𝑟𝑑𝑒....🙍 𝑐𝑜𝑚𝑚𝑒𝑛𝑡 𝑡𝑢 𝑝𝑒𝑢𝑥 𝑝𝑒𝑟𝑑𝑟𝑒 🌱${betAmount}€🌱`);
+      return message.reply(`🥷🩸𝙎𝙊𝙉𝙄𝘾🎁🎈\n━━━━━━━━━━━━━━━━\n[💧${resultString}💧]\n\n🎯 | 𝑀𝑒𝑟𝑑𝑒....🙍 𝑐𝑜𝑚𝑚𝑒𝑛𝑡 𝑡𝑢 𝑝𝑒𝑢𝑥 𝑝𝑒𝑟𝑑𝑟𝑒 🌱${betAmount}€🌱`);
     }
   }
 };
