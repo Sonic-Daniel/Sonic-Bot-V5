@@ -12,7 +12,7 @@ module.exports = {
 
     author: 'Vex_Kshitiz',
 
-    role: 0,
+    role: 2,
 
     shortDescription: 'store of cmds',
 
