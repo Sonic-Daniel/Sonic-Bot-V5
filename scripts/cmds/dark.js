@@ -9,7 +9,7 @@ module.exports = {
     shortDescription: "Amuses toi bien au jeu du hasard",
     longDescription: "Seul le hasard tu rendras riche ou pauvre...Bonne chance",
     category: "game",
-    guide: "{pn} <Sonic/Shadow> <amount of money>"
+    guide: "{pn} <Sonic/Sonic.exe> <amount of money>"
   },
 
   onStart: async function ({ args, message, usersData, event }) {
@@ -18,16 +18,16 @@ module.exports = {
     const user = event.senderID;
     const userData = await usersData.get(event.senderID);
 
-    if (!["sonic", "shadow"].includes(betType)) {
-      return message.reply("🎁 | 𝘾𝙝𝙤𝙞𝙨𝙞𝙨 : '𝙨𝙤𝙣𝙞𝙘' 𝙤𝙪 '𝙨𝙝𝙖𝙙𝙤𝙬'.");
+    if (!["sonic", "sonic.exe"].includes(betType)) {
+      return message.reply("🎁 | 𝘾𝙝𝙤𝙞𝙨𝙞𝙨 : '𝙨𝙤𝙣𝙞𝙘' 𝙤𝙪 '𝙨𝙤𝙣𝙞𝙘.𝙚𝙭𝙚'.");
     }
 
-    if (!Number.isInteger(betAmount) || betAmount < 50) {
-      return message.reply("🌿 | 𝐌𝐢𝐬𝐞 𝐚𝐮 𝐦𝐨𝐢𝐧𝐬 50$ 𝐨𝐮 𝐩𝐥𝐮𝐬.");
+    if (!Number.isInteger(betAmount) || betAmount < 100) {
+      return message.reply("🫢 | 𝐌𝐢𝐬𝐞 𝐚𝐮 𝐦𝐨𝐢𝐧𝐬 100$ 𝐨𝐮 𝐩𝐥𝐮𝐬.");
     }
 
     if (betAmount > userData.money) {
-      return message.reply("💁 | 𝑽𝒂𝒔 𝒅𝒆𝒎𝒂𝒏𝒅𝒆𝒓 𝒖𝒏 𝒕𝒓𝒂𝒏𝒔𝒇𝒆𝒓𝒕 𝒂 𝒒𝒖𝒆𝒍𝒒𝒖'𝒖𝒏");
+      return message.reply("🫠 | 𝑽𝒂𝒔 𝒅𝒆𝒎𝒂𝒏𝒅𝒆𝒓 𝒖𝒏 𝒕𝒓𝒂𝒏𝒔𝒇𝒆𝒓𝒕 𝒂 𝒒𝒖𝒆𝒍𝒒𝒖'𝒖𝒏");
     }
 
     const dice = [1, 2, 3, 4, 5, 6];
@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌿🎀𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\n<(*✨∀✨*)ﾉ\n🍀[ ${resultString} ]🍀\ 🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
+      return message.reply(`❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦\n━━━━━━━━━━━━━━━━\n<(*✨∀✨*)ﾉ\n[🩸${resultString}🩸]\n🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 ☘️${winAmount}€☘️`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🎀🌿𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\n🖕🏻(#°□°)🖕🏻\n🍁[ ${resultString} ]🍁\ 🤦🏼| 𝐓𝐮 𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
+      return message.reply(`❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦\n━━━━━━━━━━━━━━━━\n🖕🏻(#°□°)🖕🏻\n[🩸${resultString}🩸]\n🫣| 𝐌𝐞𝐫𝐝𝐞...𝐭𝐮 𝐯𝐢𝐞𝐧𝐬 𝐝𝐞 𝐩𝐞𝐫𝐝𝐫𝐞 ☘️${betAmount}€☘️`);
     }
   }
 }
