@@ -1,5 +1,5 @@
-<img src="https://i.ibb.co/jTx1HDg/image.jpg" alt="banner">
-<h1 align="center"><img src="https://i.ibb.co/g97zhps/image.jpg" width="50px"> Goat Bot - Bot Chat Messenger</h1>
+<img src="https://i.ibb.co/xMPjWvb/image.jpg" alt="banner">
+<h1 align="center"><img src="https://i.ibb.co/fYNpPr9/image.jpg" width="50px"> Goat Bot - Bot Chat Messenger</h1>
 
 <img src="https://i.ibb.co/ZhyYbWq/image.jpg" alt=banner">
 <h1 align="center"><img
