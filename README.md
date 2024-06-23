@@ -3,7 +3,7 @@
 
 <img src="https://i.ibb.co/ZhyYbWq/image.jpg" alt=banner">
 <h1 align="center"><img
-src="https://i.ibb.co/ZhyYbWq/image.jpg" width="50px"> compte du bot
+src="https://i.ibb.co/fYNpPr9/image.jpg" width="50px"> compte du bot
 a voir sur facebook </h1> 
 
 <p align="center">
