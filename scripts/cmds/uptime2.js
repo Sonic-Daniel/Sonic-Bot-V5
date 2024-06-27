@@ -34,7 +34,7 @@ module.exports = {
 ━━━━━━━━━━━━━━━━
 ❦ঔৣ☬𝐒𝐎𝐍𝐈𝐂☬ঔৣ❦️`;
       
-      api.sendMessage(`👻 | 𝑆𝑜𝑛𝑖𝑐.𝑒𝑥𝑒 𝑟𝑢𝑛𝑛𝑖𝑛𝑔 𝑡𝑖𝑚𝑒\n ${uptimeString}`, event.threadID);
+      api.sendMessage(`🥷 |𝐍𝐚𝐫𝐮𝐭𝐨 𝑟𝑢𝑛𝑛𝑖𝑛𝑔 𝑡𝑖𝑚𝑒\n ${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
