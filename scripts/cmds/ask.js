@@ -73,8 +73,8 @@ const fonts = {
  },
  onChat: async function ({ event, message }) {
  const messageContent = event.body.trim().toLowerCase();
- if (messageContent.startsWith("ai")) {
- const input = messageContent.replace(/^naruto\*/, "").trim();
+ if (messageContent.startsWith("naruto")) {
+ const input = messageContent.replace(/^ai\*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
  message.reply(`𝙉𝘼𝙍𝙐𝙏𝙊 𝙐𝙕𝙐𝙈𝘼𝙆𝙄\n━━━━━━━━━━━━━━━━\n🏁${response}🏁`, messageID);
  }
