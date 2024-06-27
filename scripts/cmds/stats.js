@@ -41,7 +41,7 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "👻✨𝚂𝙾𝙽𝙸𝙲.𝙴𝚇𝙴✨👻",
+        body: "🔵𝙈𝙄𝙎𝙎𝙄𝙊𝙉 𝙏𝙀𝙍𝙈𝙄𝙉𝙀𝙀🔵",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
