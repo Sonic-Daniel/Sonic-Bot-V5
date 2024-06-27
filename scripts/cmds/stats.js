@@ -52,13 +52,13 @@ module.exports = {
       }
 
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
-      const imgURL= "https://i.imgur.com/9Qx4mgn.jpeg";
+      const imgURL= "https://i.ibb.co/ngQgSVN/image.jpg";
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
-        body: `🍀𝐀𝐒𝐒𝐀𝐒𝐒𝐈𝐍🍀\n━━━━━━━━━━━━━━━━
-🎯 | 𝐒𝐎𝐍𝐈𝐂.𝐄𝐗𝐄 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\n${uptimeString}\n━━━━━━━━━━━━━━━━
-📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\n────────\n 𝗧𝗲𝗺𝗽: ${time}\n━━━━━━━━━━━━━━━━
-🏂 | 𝐓𝐨𝐭𝐚𝐥 𝐯𝐢𝐜𝐭𝐢𝐦𝐞𝐬\n allUsers.length}\n━━━━━━━━━━━━━━━━
-🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\n allThreads.length}\n 🎶| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\n━━━━━━━━━━━━━━━━\n status: ${pingStatus}`,
+        body: `🥷𝐍𝐈𝐍𝐉𝐀⚔️𝐃𝐄⚔️𝐊𝐎𝐍𝐎𝐇𝐀🥷\n━━━━━━━━━━━━━━━━
+🎯 | 𝐍𝐀𝐑𝐔𝐓𝐎 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\n${uptimeString}\n━━━━━━━━━━━━━━━━
+📅 | 𝗗𝗔𝗧𝗘﹞: ${date}\n━━━━━━━━━━━\n 𝗧𝗲𝗺𝗽: ${time}\n━━━━━━━━━━━━━━━━
+🏂 | 𝐓𝐨𝐭𝐚𝐥 𝐯𝐢𝐜𝐭𝐢𝐦𝐞𝐬\n {allUsers.length}\n━━━━━━━━━━━━━━━━
+🏢 | 𝘛𝘰𝘵𝘢𝘭 𝘛𝘩𝘳𝘦𝘢𝘥𝘴﹞\n {allThreads.length}\n 🎶| 𝗔𝗶𝗻𝗲 ﹞: ${ping}ms\n━━━━━━━━━━━━━━━━\n status: ${pingStatus}`,
         attachment: attachment,
       }, event.threadID);
     } catch (error) {
