@@ -1,8 +1,8 @@
 const axios = require("axios")
 module.exports = {
 	config: {
-		name: 'sonic.exe',
-        aliases: ["exe"],
+		name: 'naruto',
+        aliases: [],
 		version: '1.2',
 		author: 'Luxion/fixed by Riley',
 		countDown: 0,
@@ -20,7 +20,7 @@ module.exports = {
 
 	langs: {
 		en: {
-			turnedOn: "𝙎𝙤𝙣𝙞𝙘 𝙣'𝙚𝙨𝙩 𝙥𝙡𝙪𝙨 𝙙𝙚 𝙘𝙚 𝙢𝙤𝙣𝙙𝙚....𝙎𝙊𝙉𝙄𝘾.𝙀𝙓𝙀 𝙚𝙣𝙩𝙚 𝙚𝙣 𝙟𝙚𝙪😈",
+			turnedOn: "Il est tant de ramener la paix à Konoha🥷",
 			turnedOff: "𝙐𝙣 𝙘𝙤𝙣𝙨𝙚𝙞𝙡....𝙙𝙤𝙧𝙩 𝙖𝙫𝙚𝙘 𝙪𝙣 𝙤𝙚𝙞𝙡 𝙤𝙪𝙫𝙚𝙧𝙩 🙍",
 			chatting: "Already Chatting with 𝗟𝗢𝗙𝗧...",
 			error: "𝘽𝙊𝙐𝙁𝙁𝙊𝙉......🌱"
