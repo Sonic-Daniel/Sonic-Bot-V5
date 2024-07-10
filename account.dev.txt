@@ -26,12 +26,12 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1755163039,
+        "expirationDate": 1755193316,
         "storeId": null
     },
     {
         "name": "fr",
-        "value": "0tCA0iQJ1EoMEW1Ax.AWXR6RTo3YFOUi2fdzUf4wNqOGU.BmjLLS..AAA.0.0.Bmjr0m.AWWeh95uGvA",
+        "value": "0tCA0iQJ1EoMEW1Ax.AWX0vO2VwhkfaVPL4Ps1zoOLq5Q.BmjLLS..AAA.0.0.Bmjsf5.AWXctBcNP2M",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -41,7 +41,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1728406569,
+        "expirationDate": 1728409339,
         "storeId": null
     },
     {
@@ -56,12 +56,12 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1725814574,
+        "expirationDate": 1725818469,
         "storeId": null
     },
     {
         "name": "xs",
-        "value": "44%3AWCK2YFSaBfnUDw%3A2%3A1720630566%3A-1%3A11711",
+        "value": "49%3AJYEJ9VuMztKiog%3A2%3A1720633337%3A-1%3A-1",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -71,7 +71,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1752166569,
+        "expirationDate": 1752169339,
         "storeId": null
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "name": "fbl_st",
-        "value": "101036161%3BT%3A28677176",
+        "value": "101524232%3BT%3A28677241",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -101,7 +101,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1752166574,
+        "expirationDate": 1752170469,
         "storeId": null
     },
     {
@@ -120,22 +120,8 @@
         "storeId": null
     },
     {
-        "name": "m_pixel_ratio",
-        "value": "1",
-        "domain": ".facebook.com",
-        "hostOnly": false,
-        "path": "/",
-        "secure": true,
-        "httpOnly": false,
-        "sameSite": "no_restriction",
-        "session": true,
-        "firstPartyDomain": "",
-        "partitionKey": null,
-        "storeId": null
-    },
-    {
         "name": "c_user",
-        "value": "61557512855563",
+        "value": "61562202080300",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -145,7 +131,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1752166569,
+        "expirationDate": 1752169339,
         "storeId": null
     },
     {
@@ -160,7 +146,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1720811656,
+        "expirationDate": 1721239267,
         "storeId": null
     },
     {
@@ -190,12 +176,12 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1755190569,
+        "expirationDate": 1755193339,
         "storeId": null
     },
     {
         "name": "wd",
-        "value": "504x866",
+        "value": "504x782",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -205,12 +191,12 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1721235362,
+        "expirationDate": 1721239238,
         "storeId": null
     },
     {
         "name": "wl_cbv",
-        "value": "v2%3Bclient_version%3A2557%3Btimestamp%3A1720630570",
+        "value": "v2%3Bclient_version%3A2557%3Btimestamp%3A1720634467",
         "domain": ".facebook.com",
         "hostOnly": false,
         "path": "/",
@@ -220,7 +206,7 @@
         "session": false,
         "firstPartyDomain": "",
         "partitionKey": null,
-        "expirationDate": 1728406574,
+        "expirationDate": 1728410468,
         "storeId": null
     }
 ]
