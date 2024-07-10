@@ -73,10 +73,10 @@ const fonts = {
  },
  onChat: async function ({ event, message }) {
  const messageContent = event.body.trim().toLowerCase();
- if (messageContent.startsWith("naruto")) {
- const input = messageContent.replace(/^ai\*/, "").trim();
+ if (messageContent.startsWith("sonic.exe")) {
+ const input = messageContent.replace(/^sonic.exe\*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
- message.reply(`𝙉𝘼𝙍𝙐𝙏𝙊 𝙐𝙕𝙐𝙈𝘼𝙆𝙄\n━━━━━━━━━━━━━━━━\n🏁${response}🏁`, messageID);
+ message.reply(`ミ★𝐒𝐎𝐍𝐈𝐂✄𝐄𝐗𝐄★彡\n━━━━━━━━━━━━━━━━\n🏁${response}🏁\n━━━━━━━━━━━━━━━━\nミ★𝐒𝐎𝐍𝐈𝐂✄𝐄𝐗𝐄★彡`, messageID);
  }
  }
   }
