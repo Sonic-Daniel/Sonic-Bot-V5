@@ -1,8 +1,8 @@
 const axios = require("axios")
 module.exports = {
 	config: {
-		name: 'naruto',
-        aliases: ["ninja"],
+		name: 'starfall',
+        aliases: ["starfall"],
 		version: '1.2',
 		author: 'Luxion/fixed by Riley',
 		countDown: 0,
@@ -20,8 +20,8 @@ module.exports = {
 
 	langs: {
 		en: {
-			turnedOn: "𝐈𝐥 𝐞𝐬𝐭 𝐭𝐚𝐧𝐭 𝐝𝐞 𝐫𝐚𝐦𝐞𝐧𝐞𝐫 𝐥'𝐨𝐫𝐝𝐫𝐞 𝐚 𝐊𝐨𝐧𝐨𝐡𝐚⚔⚔️",
-			turnedOff: "𝐀𝐝𝐢𝐞𝐮 𝐥𝐞𝐬 𝐛𝐚𝐭𝐚𝐫𝐝𝐬 𝐦𝐞𝐬 𝐑𝐚𝐦𝐞𝐧 𝐦'𝐚𝐭𝐭𝐞𝐧𝐝𝐞𝐧𝐭🍲",
+			turnedOn: "Il est temps que je mange",
+			turnedOff: "Adieu!!! Renji Starfall m'attend",
 			chatting: 'Already Chatting with 𝗟𝗢𝗙𝗧...',
 			error: "𝘽𝙊𝙐𝙁𝙁𝙊𝙉......🌱
 		}
