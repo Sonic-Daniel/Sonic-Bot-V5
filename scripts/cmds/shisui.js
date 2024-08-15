@@ -1,4 +1,4 @@
-#cmd install shisui.js module.exports = {
+module.exports = {
 	config: {
 		name: "shisui",
 		aliases: ["shi"],
