@@ -15,6 +15,6 @@ module.exports = {
         message,
         getLang
     }) {
-        if (event.body && event.body.toLowerCase() == "🥴") return message.reply("𝙅'𝙩𝙚 𝙥𝙧𝙤𝙢𝙚𝙩𝙨 𝙙𝙚 𝙩'𝙖𝙧𝙧𝙖𝙘𝙝𝙚𝙧 𝙡𝙚 𝙘𝙚𝙧𝙫𝙚𝙖𝙪 🥴");
+        if (event.body && event.body.toLowerCase() == "🥴") return message.reply("𝑉𝑖𝑒𝑛𝑠....𝑜𝑛 𝑣𝑎𝑠 𝑝𝑟𝑒𝑛𝑑𝑟𝑒 𝑢𝑛 𝑏𝑜𝑛 𝑐𝑜𝑢𝑝 🥴🚬💨");
     }
 }
