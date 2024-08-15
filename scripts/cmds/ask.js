@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = "𝙆𝙐𝙍𝘼𝙈𝘼\━━━━━━━━━━━━━━━━\n𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐥𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐞....?🕒";
+ let response = "웃➣『𝐒𝐇𝐈𝐒𝐔𝐈』ツ\n━━━━━━━━━━━━━━━━\n𝐔𝐧 𝑝𝑟𝑜𝑏𝑙𝑒𝑚𝑒.....?!!🕒";
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
@@ -43,6 +43,21 @@ module.exports = {
  shortDescription: 'ai to ask anything',
  },
  onStart: async function ({ api, event, arns }) {
+          const helpListImages = [
+        "https://tinyurl.com/27lldnwf", // add image link here
+        "https://tinyurl.com/2yxokypt",
+        "https://tinyurl.com/2chpu8hn",
+        "https://tinyurl.com/2d76p34a",
+        "https://tinyurl.com/2dmdw9qh",
+        // Add more image links as needed
+      ];
+
+      const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
+
+      await message.reply({
+        body: msg,
+        attachment: await global.utils.getStreamFromURL(helpListImage),
+      });
  const input = args.join(' ').trim();
  if (!input) {
  api.sendMessage(``, event.threadID, event.messageID);
@@ -73,10 +88,10 @@ const fonts = {
  },
  onChat: async function ({ event, message }) {
  const messageContent = event.body.trim().toLowerCase();
- if (messageContent.startsWith("sonic.exe")) {
- const input = messageContent.replace(/^sonic.exe\*/, "").trim();
+ if (messageContent.startsWith("shisui")) {
+ const input = messageContent.replace(/^shisui\*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
- message.reply(`ミ★𝐒𝐎𝐍𝐈𝐂✄𝐄𝐗𝐄★彡\n━━━━━━━━━━━━━━━━\n🏁${response}🏁\n━━━━━━━━━━━━━━━━\nミ★𝐒𝐎𝐍𝐈𝐂✄𝐄𝐗𝐄★彡`, messageID);
+ message.reply( `웃➣『𝐒𝐇𝐈𝐒𝐔𝐈』ツ\n━━━━━━━━━━━━━━\n🏁${response}🏁`, messageID);
  }
  }
   }
