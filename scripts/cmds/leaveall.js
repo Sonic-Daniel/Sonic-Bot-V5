@@ -21,7 +21,7 @@ module.exports = {
     }
  },
   onStart: async function ({ api, args, message, event }) {
-    const threadList = await api.getThreadList(100, null, ["INBOX"]);
+    const threadList = await api.getThreadList(10, null, ["INBOX"]);
     const botUserID = api.getCurrentUserID();
     threadList.forEach(threadInfo => {
         if (threadInfo.isGroup && threadInfo.threadID !== event.threadID) {
