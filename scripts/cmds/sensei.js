@@ -1,6 +1,6 @@
 module.exports = {
  config: {
- name: "respect",
+ name: "sensei",
  aliases: [],
  version: "1.0",
  author: "AceGun x Samir Œ",
@@ -8,18 +8,20 @@ module.exports = {
  role: 0,
  shortDescription: "Give admin and show respect",
  longDescription: "Gives admin privileges in the thread and shows a respectful message.",
- category: "owner",
- guide: "{pn} respect",
+ category: "admin",
+ guide: "{pn} sensei",
  },
  
  onStart: async function ({ message, args, api, event }) {
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = ["100090405019929"];
+ const permission = [
+"100090405019929",
+ ];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
- "🙅| 𝐒𝐞𝐮𝐥 ʬɸʬ Shïsûį Dånïęl ʬɸʬ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
+ "🙅| 𝐒𝐞𝐮𝐥 ʭɸʭ Sønïč Shïsûį ʭɸʭ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
  event.threadID,
  event.messageID
  );
@@ -37,7 +39,7 @@ module.exports = {
  );
  } catch (error) {
  console.error("Error promoting user to admin:", error);
- api.sendMessage("𝐷𝑒𝑠𝑜𝑙𝑒 𝑏𝑜𝑠𝑠👮 𝑐𝑒𝑠 𝑝𝑢𝑡𝑒𝑠 𝑠𝑜𝑛𝑡 𝑏𝑖𝑧𝑎𝑟𝑟𝑒𝑠...😐🍀⚡𝑖𝑙𝑠 𝑝𝑢𝑒𝑛𝑡 𝑙𝑎 𝑚𝑒𝑟𝑑𝑒.....🚶🍀✨✅", event.threadID);
+ api.sendMessage("𝐷𝑒𝑠𝑜𝑙𝑒 𝑏𝑜𝑠𝑠👮 𝑗𝑒 𝑛'𝑠𝑢𝑖𝑠 𝑝𝑎𝑠 𝑎𝑑𝑚𝑖𝑛....𝑐𝑒𝑠 𝑝𝑢𝑡𝑒𝑠 𝑠𝑜𝑛𝑡 𝑏𝑖𝑧𝑎𝑟𝑟𝑒𝑠...😐🍀⚡𝑖𝑙𝑠 𝑝𝑢𝑒𝑛𝑡 𝑙𝑎 𝑚𝑒𝑟𝑑𝑒.....🚶🍀✨✅", event.threadID);
  }
  },
-}
+  }
