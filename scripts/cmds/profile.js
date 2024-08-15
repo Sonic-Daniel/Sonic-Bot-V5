@@ -9,7 +9,7 @@ aliases: ["pfp"],
 		role: 0,
 		shortDescription: "PROFILE image",
 		longDescription: "PROFILE image",
-		category: "image",
+		category: "utility",
 		guide: {
 			en: "   {pn} @tag"
 		}
