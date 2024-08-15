@@ -40,7 +40,7 @@ module.exports = {
 			removed: "✅ | 𝐋'𝐚𝐝𝐦𝐢𝐧 𝐚𝐲𝐚𝐧𝐭 𝐞𝐭𝐞 𝐫𝐞𝐭𝐢𝐫𝐞 𝐞𝐬𝐭 :\n%2",
 			notAdmin: "⚠️ | %1 users don't have admin role:\n%2",
 			missingIdRemove: "⚠️ | Please enter ID or tag user to remove admin role",
-			listAdmin: "🍀| 𝐀𝐃𝐌𝐈𝐍(𝐒) 𝐃𝐔 𝐁𝐎𝐓:\n━━━━━━━━━━━━━━━━\n%1"
+			listAdmin: "🐝| 𝐀𝐃𝐌𝐈𝐍(𝐒) 𝐃𝐔 𝐁𝐎𝐓:\n━━━━━━━━━━━━━━━━\n%1"
 		}
 	},
 
@@ -69,7 +69,7 @@ module.exports = {
 					const getNames = await Promise.all(uids.map(uid => usersData.getName(uid).then(name => ({ uid, name }))));
 					writeFileSync(global.client.dirConfig, JSON.stringify(config, null, 2));
 					return message.reply(
-						(notAdminIds.length > 0 ? getLang("added", notAdminIds.length, getNames.map(({ uid, name }) => `• ${name} (${uid})`).join("\n")) : "")
+						(notAdminIds.length > 0 ? getLang("added", notAdminIds.length, getNames.map(({ uid, name }) => `웃➣ ۝${name}۝ 『${uid}』`).join("\n")) : "")
 						+ (adminIds.length > 0 ? getLang("alreadyAdmin", adminIds.length, adminIds.map(uid => `• ${uid}`).join("\n")) : "")
 					);
 				}
@@ -97,7 +97,7 @@ module.exports = {
 					const getNames = await Promise.all(adminIds.map(uid => usersData.getName(uid).then(name => ({ uid, name }))));
 					writeFileSync(global.client.dirConfig, JSON.stringify(config, null, 2));
 					return message.reply(
-						(adminIds.length > 0 ? getLang("removed", adminIds.length, getNames.map(({ uid, name }) => `• ${name} (${uid})`).join("\n")) : "")
+						(adminIds.length > 0 ? getLang("removed", adminIds.length, getNames.map(({ uid, name }) => `웃➣ ۝${name}۝ 『${uid}』`).join("\n")) : "")
 						+ (notAdminIds.length > 0 ? getLang("notAdmin", notAdminIds.length, notAdminIds.map(uid => `• ${uid}`).join("\n")) : "")
 					);
 				}
